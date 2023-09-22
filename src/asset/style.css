@@ -1,141 +1,42 @@
-@import url(./all.min.css);
-
 /* General */
 
 .shadow {
-    box-shadow: 20px 20px 30px 10px #e5d3c9;
+    box-shadow: 20px 20px 30px 10px #e5d3c9
 }
 
 body {
-    background-color: #fbf3e8;
+    background-color: #fbf3e8
 }
 
-/* Start Card 1 */
+h1, h2 {
+    text-align: center
+}
 
-.container1 {
-    margin: 70px auto;
+div {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
     background-color: #FFF;
-    width: 250px;
-    height: 300px;
+    width: 400px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
-.icon1 {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #fef5f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icon1 i {
-    color: #ff956e;
+.image {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30%
 }
 
 p {
-    text-align: center;
-    color: gray;
+    text-align: justify;
+    color: gray
 }
-
-/* End Card 1 */
-
-/* Start Card 2 */
-
-.container2 {
-    margin: auto;
-    padding: 20px 30px;
-    background-color: white;
-    width: 350px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 70px;
-}
-
-.icon2 {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-    background-color: #ff956e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icon2 i {
-    color: white;
-}
-
-.details {
-    margin-left: 30px;
-    line-height: 0px;
-}
-
-.details span {
-    display: flex;
-    align-items: center;
-    color: gray;
-}
-
-.details p {
-    margin-left: 10px;
-}
-
-/* End Card 1 */
-
-/* Start Card 2 */
-
-.container3 {
-    margin: auto;
-    padding: 10px 30px 30px;
-    background-color: #FFF;
-    width: 320px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    line-height: 0px;
-    margin-bottom: 70px;
-}
-
-.container3 div {
-    display: flex;
-}
-
-progress {
-    width: 300px;
-    height: 7px;
-    border: 0px solid gray;
-    border-radius: 20px;
-}
-
-progress::progress-bar {
-    background-color: #ff956e;
-}
-
-progress::-webkit-progress-bar {
-    background-color: #ff956e;
-}
-
-progress::-moz-progress-bar {
-    background-color: #ff956e;
-}
-
-progress::-ms-fill {
-    background-color: #ff956e;
-}
-
-.container3 span {
-    margin-left: 10px;
-    font-size: 13px;
-    color: gray;
-}
-
-/* End Card 1 */
